@@ -1,10 +1,6 @@
-# simple function with basic error handling
-import pdb  # For debugging
-
-
 def add_numbers(a, b):
     try:
         return a + b + 1  # Intentionally wrong
     except TypeError:
-        pdb.set_trace()  # Breakpoint for debugging if types mismatch
+        pdb.set_trace()
         raise ValueError("Inputs must be numbers")
