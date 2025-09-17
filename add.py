@@ -1,6 +1,7 @@
 # simple function with basic error handling
 import pdb  # For debugging
 
+
 def add_numbers(a, b):
     try:
         return a + b
